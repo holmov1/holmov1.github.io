@@ -4,50 +4,10 @@
 
 ```
 site/
-├── index.html          ← main page (about, writing list, cv, links)
+├── index.html          ← main page (about, publications list, cv, links)
 ├── style.css           ← shared styles
-├── posts/
-│   ├── _template.html  ← copy this to make a new post
-│   └── one-mask.html   ← first post
 └── README.md
 ```
-
-## How to add a new post
-
-Two steps:
-
-### 1. Create the post file
-
-Copy `posts/_template.html` and rename it, e.g. `posts/my-new-post.html`.
-Open it and fill in:
-- The `<title>` tag
-- The date, title, and tags in the post header
-- Your content in the `<div class="post-body">` section
-
-You can use:
-- `<p>` for paragraphs
-- `<h2>` for subheadings
-- `<code>` for inline code, `<pre><code>` for code blocks
-- `<blockquote>` for quotes
-- `<a href="...">` for links
-- `<img src="...">` for images
-
-### 2. Add a link on the homepage
-
-Open `index.html`, find the Writing section, and add an entry above the existing ones:
-
-```html
-<div class="entry">
-  <a href="posts/my-new-post.html">
-    <div class="entry-date">Mar 5, 2026</div>
-    <div class="entry-title">Your Title Here</div>
-    <p class="entry-excerpt">One or two sentences about it.</p>
-    <span class="tag">some-tag</span>
-  </a>
-</div>
-```
-
-Newest posts go on top. That's it.
 
 ## How to add creature icons
 

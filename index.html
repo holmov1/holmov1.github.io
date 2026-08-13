@@ -4,23 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Ali Holmov</title>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,500;0,600;0,900;1,500&family=EB+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <div class="top-line"></div>
 
 <header class="header">
-  <img src="assets/2.svg" alt="creature 1" width="250vw"  class="rotate90">
+  <img src="assets/2.svg" alt="creature 1" width="250vw" class="rotate90 header-creature header-creature-left">
   <h1 class="site-title">Ali Holmov</h1>
+  <img src="assets/2.svg" alt="creature 1" width="250vw" class="rotate90 header-creature header-creature-right">
 </header>
-
-<nav>
-  <a href="#about">About</a>
-  <a href="#writing">Writing</a>
-  <a href="#cv">CV</a>
-  <a href="#links">Links</a>
-</nav>
 
 <main class="container">
 
@@ -41,152 +35,30 @@
     </div>
   </section>
 
-  <!-- WRITING -->
-  <section id="writing">
+  <!-- PUBLICATIONS -->
+  <section id="publications">
     <div class="section-title">
-      <img src="assets/5.svg" alt="creature 2" width="150vw">
-      Writing
+      <img src="assets/5.svg" alt="creature 3" width="150vw">
+      Publications
     </div>
     <div class="section-sub"></div>
 
-    <!--
-    TO ADD A NEW POST:
-    1. Duplicate posts/_template.html, rename it (e.g. posts/my-new-post.html)
-    2. Write your post in the new file
-    3. Add an entry here linking to it (newest on top):
-
-    <div class="entry">
-      <a href="posts/my-new-post.html">
-        <div class="entry-date">Mar 5, 2026</div>
-        <div class="entry-title">Your Title Here</div>
-        <p class="entry-excerpt">A sentence or two about it.</p>
-        <span class="tag">some-tag</span>
-      </a>
-    </div>
-    -->
-
-    <div class="entry">
-      <a href="posts/one-mask.html">
-        <div class="entry-date">Feb 14, 2026</div>
-        <div class="entry-title">One Mask to Rule Them All</div>
-        <p class="entry-excerpt">ROME and MEMIT edits suppress rather than overwrite knowledge. We trained sparse binary masks that reverse edits on unseen examples, confirming original facts stay encoded.</p>
-        <span class="tag">knowledge editing</span>
-        <span class="tag">interpretability</span>
-      </a>
-    </div>
-
-  </section>
-  
-  <!--
-  <section id="cv">
-    <div class="section-title">
-      <img src="assets/3.svg" alt="creature 2" width="150vw">
-      CV
-    </div>
-    <div class="section-sub"></div>
-
-\
     <div class="cv-block">
-      <div class="cv-block-title">Education</div>
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">M.Sc. Computer Science — TU Munich</span>
-           <span class="cv-date">2025 - now</span>
-        </div>
-      </div>
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">B.Sc. Computer Science — University of Marburg</span>
-           <span class="cv-date">2021 - 2025</span>
-        </div>
-      </div>
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">B.A. Philosophy — Saint Petersburg University</span>
-          <span class="cv-date">2016 - 020</span>
-        </div>
-      </div>
-    </div>
-
-\
-    <div class="cv-block">
-      <div class="cv-block-title">Experience</div>
-      <!--
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">Guided Research — EML Helmholtz Munich</span>
-          <span class="cv-date">Mar 2026 –</span>
-        </div>
-        <div class="cv-detail">Implicit personification in LLMs, with Kirill Bykov</div>
-      </div>
-
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">ML Engineer — Helmit, Munich</span>
-          <span class="cv-date"> now –</span>
-        </div>
-        <div class="cv-detail">I am working part-time in the ML model development for children safety online.</div>
-      </div>
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">AI Engineer Internship - AUDI</span>
-          <span class="cv-date">Apr – Sep 2025</span>
-        </div>
-        <div class="cv-detail">Knowledge graphs and GraphRAG for production planning.</div>
-      </div>
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">Student Researcher, Knowledge Editing — hessian.AI, Marburg</span>
-          <span class="cv-date">2024-2025</span>
-        </div>
-        <div class="cv-detail">I worked on the question what knowledge editing does to models. How overwritting factual associations affect the models.</div>
-      </div>
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">Research Intern — King's College London</span>
-          <span class="cv-date">Aug – Oct 2023</span>
-        </div>
-        <div class="cv-detail">Effective density of feed-forward models.</div>
-      </div>
-
-      <div class="cv-item">
-        <div class="cv-row">
-          <span class="cv-role">Student Assistant — AI in Medicine, University Hospital Marburg</span>
-          <span class="cv-date">Jun 2022 – Jul 2023</span>
-        </div>
-        <div class="cv-detail">Framework for experiments in trustworthy medical AI.</div>
-      </div>
-    </div>
--->
-
-    <!-- PUBLICATIONS -->
-    <div class="cv-block">
-      <div class="cv-block-title">Publications</div>
-
       <div class="cv-item">
         <div class="cv-role">One Mask to Rule Them All: On Hidden Facts after Editing and How to Find Them</div>
-        <div class="cv-detail">A. Holmov, P. Youssef, N. Schoots, C. Seifert. Findings of ACL 2026.</div>
+        <div class="cv-detail">A. Holmov, P. Youssef, N. Schoots, C. Seifert. <a href="https://arxiv.org/abs/2605.28839" target="_blank" rel="noopener">Findings of ACL 2026</a>. <a href="https://github.com/holmov1/one-mask-ke" target="_blank" rel="noopener">Code</a></div>
       </div>
-      <!--
-      <div class="cv-item">
-        <div class="cv-role">When Human Oversight Fails in Medical AI</div>
-        <div class="cv-detail">N. Schlicker, C. Tepohl, A. Kholmovaia et al. npj Digital Medicine, under review (minor revisions).</div>
-      </div>
-      -->
 
       <div class="cv-item">
         <div class="cv-role">The Propensity for Density in Feed-forward Models</div>
-        <div class="cv-detail">N. Schoots, A. Jackson, A. Kholmovaia, P. McBurney, M. Shanahan. ECAI 2024.</div>
+        <div class="cv-detail">N. Schoots, A. Jackson, A. Kholmovaia, P. McBurney, M. Shanahan. <a href="https://arxiv.org/pdf/2410.14461" target="_blank" rel="noopener">ECAI 2024</a>.</div>
+      </div>
+
+      <div class="cv-item">
+        <div class="cv-role">Physicians Trust AI Less in Complex Cases, but Rely on It Just as Much</div>
+        <div class="cv-detail">N. Schlicker, N. Steffens, A. Kholmovaia, O. Loukas, L. E. Melms, M. C. Hirsch, M. Langer. Technology, Mind, and Behavior. 2026.</div>
       </div>
     </div>
-
   </section>
 
   <!-- LINKS -->
@@ -200,6 +72,7 @@
     <ul class="links-list">
       <li><a href="https://github.com/al-holm">GitHub</a> <span class="desc"></span></li>
       <!--<li><a href="#">Google Scholar</a> <span class="desc">— papers</span></li>-->
+      <li><a href="assets/cv.pdf" target="_blank" rel="noopener">CV</a> <span class="desc">PDF</span></li>
       <li><a href="#">LinkedIn</a> <span class="desc"></span></li>
       <li><a href="mailto:modus.celarent@gmail.com">Email</a> <span class="desc"></span></li>
     </ul>
