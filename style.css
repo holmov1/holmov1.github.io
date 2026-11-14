@@ -72,7 +72,7 @@ a { color: inherit; }
 /* ─── Layout ───────────────────────────────────────── */
 
 .container {
-  max-width: 44rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 2rem 1.5rem 4rem;
 }
@@ -136,30 +136,30 @@ section { margin-bottom: 4.5rem; }
   color: var(--ink-muted);
 }
 
-/* ─── Links ────────────────────────────────────────── */
+/* ─── Header links ─────────────────────────────────── */
 
-.links-list { list-style: none; display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; }
-.links-list li { padding: 0; border: 0; }
-
-/* Label style. */
-.links-list a {
-  font-family: var(--serif-text);
-  font-size: 0.72rem;
-  font-weight: 400;
-  letter-spacing: 0.18em;
-  text-transform: uppercase;
-  color: var(--gilt);
-  text-decoration: none;
-  border-bottom: 1px solid var(--gilt);
-  padding-bottom: 3px;
+.header-main { display: flex; flex-direction: column; align-items: center; gap: 1.4rem; }
+/* One beige bar, split into segments by thin dark rules. */
+.header-links {
+  display: flex;
+  background: var(--ink-light);
+  border-radius: 3px;
+  overflow: hidden;
 }
-.links-list a:hover { color: var(--ink-light); border-color: var(--ink-light); }
-.links-list .desc { display: none; }
+.header-links a {
+  font-size: 0.95rem;
+  color: var(--wall);
+  text-decoration: none;
+  padding: 0.3rem 1.1rem;
+  transition: background 0.15s;
+}
+.header-links a + a { border-left: 1px solid rgba(28, 25, 21, 0.3); }
+.header-links a:hover { background: var(--gilt); }
 
 /* ─── Footer ───────────────────────────────────────── */
 
 footer {
-  max-width: 44rem;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 2rem 1.5rem 3rem;
   border-top: 1px solid var(--rule);
