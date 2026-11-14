@@ -91,7 +91,7 @@ section { margin-bottom: 4.5rem; }
   line-height: 1.1;
   color: var(--ink-light);
 }
-.section-title img { width: 84px; height: auto; }
+.section-title img { width: 100px; height: auto; }
 
 .section-sub {
   margin: 1rem 0 1.8rem;
@@ -179,6 +179,6 @@ footer .ornament { display: none; }
   .header-creature-left { display: none; }
   .container { padding: 1.5rem 1rem 3rem; }
   .section-title { font-size: 1.9rem; }
-  .section-title img { width: 64px; }
+  .section-title img { width: 76px; }
   .about-text img { width: 110px; }
 }
